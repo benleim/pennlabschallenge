@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3714E3E2156A2CB00416B2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3714E3D2156A2CB00416B2F /* AppDelegate.swift */; };
+		A3714E402156A2CB00416B2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3714E3F2156A2CB00416B2F /* ViewController.swift */; };
+		A3714E432156A2CB00416B2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3714E412156A2CB00416B2F /* Main.storyboard */; };
+		A3714E452156A2CE00416B2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3714E442156A2CE00416B2F /* Assets.xcassets */; };
+		A3714E482156A2CE00416B2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3714E462156A2CE00416B2F /* LaunchScreen.storyboard */; };
+		A3714E532156A2CE00416B2F /* PennLabsDiningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3714E522156A2CE00416B2F /* PennLabsDiningTests.swift */; };
+		A3714E5E2156A2CE00416B2F /* PennLabsDiningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3714E5D2156A2CE00416B2F /* PennLabsDiningUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3714E4F2156A2CE00416B2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3714E322156A2CB00416B2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3714E392156A2CB00416B2F;
+			remoteInfo = PennLabsDining;
+		};
+		A3714E5A2156A2CE00416B2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3714E322156A2CB00416B2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3714E392156A2CB00416B2F;
+			remoteInfo = PennLabsDining;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3714E3A2156A2CB00416B2F /* PennLabsDining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PennLabsDining.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3714E3D2156A2CB00416B2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3714E3F2156A2CB00416B2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3714E422156A2CB00416B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3714E442156A2CE00416B2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3714E472156A2CE00416B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3714E492156A2CE00416B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3714E4E2156A2CE00416B2F /* PennLabsDiningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennLabsDiningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3714E522156A2CE00416B2F /* PennLabsDiningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennLabsDiningTests.swift; sourceTree = "<group>"; };
+		A3714E542156A2CE00416B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3714E592156A2CE00416B2F /* PennLabsDiningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennLabsDiningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3714E5D2156A2CE00416B2F /* PennLabsDiningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennLabsDiningUITests.swift; sourceTree = "<group>"; };
+		A3714E5F2156A2CE00416B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3714E372156A2CB00416B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3714E4B2156A2CE00416B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3714E562156A2CE00416B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3714E312156A2CB00416B2F = {
+			isa = PBXGroup;
+			children = (
+				A3714E3C2156A2CB00416B2F /* PennLabsDining */,
+				A3714E512156A2CE00416B2F /* PennLabsDiningTests */,
+				A3714E5C2156A2CE00416B2F /* PennLabsDiningUITests */,
+				A3714E3B2156A2CB00416B2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3714E3B2156A2CB00416B2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3714E3A2156A2CB00416B2F /* PennLabsDining.app */,
+				A3714E4E2156A2CE00416B2F /* PennLabsDiningTests.xctest */,
+				A3714E592156A2CE00416B2F /* PennLabsDiningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3714E3C2156A2CB00416B2F /* PennLabsDining */ = {
+			isa = PBXGroup;
+			children = (
+				A3714E3D2156A2CB00416B2F /* AppDelegate.swift */,
+				A3714E3F2156A2CB00416B2F /* ViewController.swift */,
+				A3714E412156A2CB00416B2F /* Main.storyboard */,
+				A3714E442156A2CE00416B2F /* Assets.xcassets */,
+				A3714E462156A2CE00416B2F /* LaunchScreen.storyboard */,
+				A3714E492156A2CE00416B2F /* Info.plist */,
+			);
+			path = PennLabsDining;
+			sourceTree = "<group>";
+		};
+		A3714E512156A2CE00416B2F /* PennLabsDiningTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3714E522156A2CE00416B2F /* PennLabsDiningTests.swift */,
+				A3714E542156A2CE00416B2F /* Info.plist */,
+			);
+			path = PennLabsDiningTests;
+			sourceTree = "<group>";
+		};
+		A3714E5C2156A2CE00416B2F /* PennLabsDiningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3714E5D2156A2CE00416B2F /* PennLabsDiningUITests.swift */,
+				A3714E5F2156A2CE00416B2F /* Info.plist */,
+			);
+			path = PennLabsDiningUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3714E392156A2CB00416B2F /* PennLabsDining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3714E622156A2CE00416B2F /* Build configuration list for PBXNativeTarget "PennLabsDining" */;
+			buildPhases = (
+				A3714E362156A2CB00416B2F /* Sources */,
+				A3714E372156A2CB00416B2F /* Frameworks */,
+				A3714E382156A2CB00416B2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PennLabsDining;
+			productName = PennLabsDining;
+			productReference = A3714E3A2156A2CB00416B2F /* PennLabsDining.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3714E4D2156A2CE00416B2F /* PennLabsDiningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3714E652156A2CE00416B2F /* Build configuration list for PBXNativeTarget "PennLabsDiningTests" */;
+			buildPhases = (
+				A3714E4A2156A2CE00416B2F /* Sources */,
+				A3714E4B2156A2CE00416B2F /* Frameworks */,
+				A3714E4C2156A2CE00416B2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3714E502156A2CE00416B2F /* PBXTargetDependency */,
+			);
+			name = PennLabsDiningTests;
+			productName = PennLabsDiningTests;
+			productReference = A3714E4E2156A2CE00416B2F /* PennLabsDiningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3714E582156A2CE00416B2F /* PennLabsDiningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3714E682156A2CE00416B2F /* Build configuration list for PBXNativeTarget "PennLabsDiningUITests" */;
+			buildPhases = (
+				A3714E552156A2CE00416B2F /* Sources */,
+				A3714E562156A2CE00416B2F /* Frameworks */,
+				A3714E572156A2CE00416B2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3714E5B2156A2CE00416B2F /* PBXTargetDependency */,
+			);
+			name = PennLabsDiningUITests;
+			productName = PennLabsDiningUITests;
+			productReference = A3714E592156A2CE00416B2F /* PennLabsDiningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3714E322156A2CB00416B2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "William Leimberger";
+				TargetAttributes = {
+					A3714E392156A2CB00416B2F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A3714E4D2156A2CE00416B2F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A3714E392156A2CB00416B2F;
+					};
+					A3714E582156A2CE00416B2F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A3714E392156A2CB00416B2F;
+					};
+				};
+			};
+			buildConfigurationList = A3714E352156A2CB00416B2F /* Build configuration list for PBXProject "PennLabsDining" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3714E312156A2CB00416B2F;
+			productRefGroup = A3714E3B2156A2CB00416B2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3714E392156A2CB00416B2F /* PennLabsDining */,
+				A3714E4D2156A2CE00416B2F /* PennLabsDiningTests */,
+				A3714E582156A2CE00416B2F /* PennLabsDiningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3714E382156A2CB00416B2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3714E482156A2CE00416B2F /* LaunchScreen.storyboard in Resources */,
+				A3714E452156A2CE00416B2F /* Assets.xcassets in Resources */,
+				A3714E432156A2CB00416B2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3714E4C2156A2CE00416B2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3714E572156A2CE00416B2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3714E362156A2CB00416B2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3714E402156A2CB00416B2F /* ViewController.swift in Sources */,
+				A3714E3E2156A2CB00416B2F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3714E4A2156A2CE00416B2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3714E532156A2CE00416B2F /* PennLabsDiningTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3714E552156A2CE00416B2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3714E5E2156A2CE00416B2F /* PennLabsDiningUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3714E502156A2CE00416B2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3714E392156A2CB00416B2F /* PennLabsDining */;
+			targetProxy = A3714E4F2156A2CE00416B2F /* PBXContainerItemProxy */;
+		};
+		A3714E5B2156A2CE00416B2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3714E392156A2CB00416B2F /* PennLabsDining */;
+			targetProxy = A3714E5A2156A2CE00416B2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3714E412156A2CB00416B2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3714E422156A2CB00416B2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3714E462156A2CE00416B2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3714E472156A2CE00416B2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3714E602156A2CE00416B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3714E612156A2CE00416B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3714E632156A2CE00416B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6PK9457VC;
+				INFOPLIST_FILE = PennLabsDining/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bleim.PennLabsDining;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3714E642156A2CE00416B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6PK9457VC;
+				INFOPLIST_FILE = PennLabsDining/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bleim.PennLabsDining;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3714E662156A2CE00416B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6PK9457VC;
+				INFOPLIST_FILE = PennLabsDiningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bleim.PennLabsDiningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PennLabsDining.app/PennLabsDining";
+			};
+			name = Debug;
+		};
+		A3714E672156A2CE00416B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6PK9457VC;
+				INFOPLIST_FILE = PennLabsDiningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bleim.PennLabsDiningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PennLabsDining.app/PennLabsDining";
+			};
+			name = Release;
+		};
+		A3714E692156A2CE00416B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6PK9457VC;
+				INFOPLIST_FILE = PennLabsDiningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bleim.PennLabsDiningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PennLabsDining;
+			};
+			name = Debug;
+		};
+		A3714E6A2156A2CE00416B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6PK9457VC;
+				INFOPLIST_FILE = PennLabsDiningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bleim.PennLabsDiningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PennLabsDining;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3714E352156A2CB00416B2F /* Build configuration list for PBXProject "PennLabsDining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3714E602156A2CE00416B2F /* Debug */,
+				A3714E612156A2CE00416B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3714E622156A2CE00416B2F /* Build configuration list for PBXNativeTarget "PennLabsDining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3714E632156A2CE00416B2F /* Debug */,
+				A3714E642156A2CE00416B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3714E652156A2CE00416B2F /* Build configuration list for PBXNativeTarget "PennLabsDiningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3714E662156A2CE00416B2F /* Debug */,
+				A3714E672156A2CE00416B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3714E682156A2CE00416B2F /* Build configuration list for PBXNativeTarget "PennLabsDiningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3714E692156A2CE00416B2F /* Debug */,
+				A3714E6A2156A2CE00416B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3714E322156A2CB00416B2F /* Project object */;
+}
