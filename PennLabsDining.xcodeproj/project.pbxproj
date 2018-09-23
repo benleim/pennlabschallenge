@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18E488B38433798E8DA3CD6F /* Pods_PennLabsDining.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B687D81D0425E8E4ED5CF2 /* Pods_PennLabsDining.framework */; };
+		8177890625050F6656A2E620 /* Pods_PennLabsDiningUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D473FCA22ADD5AAE315D98C5 /* Pods_PennLabsDiningUITests.framework */; };
 		A3714E3E2156A2CB00416B2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3714E3D2156A2CB00416B2F /* AppDelegate.swift */; };
 		A3714E402156A2CB00416B2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3714E3F2156A2CB00416B2F /* ViewController.swift */; };
 		A3714E432156A2CB00416B2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3714E412156A2CB00416B2F /* Main.storyboard */; };
@@ -14,6 +16,13 @@
 		A3714E482156A2CE00416B2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3714E462156A2CE00416B2F /* LaunchScreen.storyboard */; };
 		A3714E532156A2CE00416B2F /* PennLabsDiningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3714E522156A2CE00416B2F /* PennLabsDiningTests.swift */; };
 		A3714E5E2156A2CE00416B2F /* PennLabsDiningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3714E5D2156A2CE00416B2F /* PennLabsDiningUITests.swift */; };
+		A3AF4A7721570DDC00AB1A2C /* GymTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AF4A7621570DDC00AB1A2C /* GymTableViewCell.swift */; };
+		A3AF4A7D2158414400AB1A2C /* climbing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3AF4A782158414400AB1A2C /* climbing.jpg */; };
+		A3AF4A7E2158414400AB1A2C /* sheerr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3AF4A792158414400AB1A2C /* sheerr.jpg */; };
+		A3AF4A7F2158414400AB1A2C /* ringe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3AF4A7A2158414400AB1A2C /* ringe.jpg */; };
+		A3AF4A802158414400AB1A2C /* rockwell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3AF4A7B2158414400AB1A2C /* rockwell.jpg */; };
+		A3AF4A812158414400AB1A2C /* fox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3AF4A7C2158414400AB1A2C /* fox.jpg */; };
+		E46F00C09D03FD7937862B51 /* Pods_PennLabsDiningTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700A88079236AE74B7F076D8 /* Pods_PennLabsDiningTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		098367CE775477F6942EA410 /* Pods-PennLabsDiningTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennLabsDiningTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PennLabsDiningTests/Pods-PennLabsDiningTests.release.xcconfig"; sourceTree = "<group>"; };
+		25C59CA3D84B815240B9F241 /* Pods-PennLabsDiningUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennLabsDiningUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PennLabsDiningUITests/Pods-PennLabsDiningUITests.release.xcconfig"; sourceTree = "<group>"; };
+		334BDA14EF76CC814837CD1E /* Pods-PennLabsDining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennLabsDining.release.xcconfig"; path = "Pods/Target Support Files/Pods-PennLabsDining/Pods-PennLabsDining.release.xcconfig"; sourceTree = "<group>"; };
+		700A88079236AE74B7F076D8 /* Pods_PennLabsDiningTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PennLabsDiningTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3714E3A2156A2CB00416B2F /* PennLabsDining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PennLabsDining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3714E3D2156A2CB00416B2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3714E3F2156A2CB00416B2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,17 @@
 		A3714E592156A2CE00416B2F /* PennLabsDiningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennLabsDiningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3714E5D2156A2CE00416B2F /* PennLabsDiningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennLabsDiningUITests.swift; sourceTree = "<group>"; };
 		A3714E5F2156A2CE00416B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3AF4A7621570DDC00AB1A2C /* GymTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymTableViewCell.swift; sourceTree = "<group>"; };
+		A3AF4A782158414400AB1A2C /* climbing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = climbing.jpg; sourceTree = "<group>"; };
+		A3AF4A792158414400AB1A2C /* sheerr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sheerr.jpg; sourceTree = "<group>"; };
+		A3AF4A7A2158414400AB1A2C /* ringe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ringe.jpg; sourceTree = "<group>"; };
+		A3AF4A7B2158414400AB1A2C /* rockwell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rockwell.jpg; sourceTree = "<group>"; };
+		A3AF4A7C2158414400AB1A2C /* fox.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fox.jpg; sourceTree = "<group>"; };
+		B278A7E0A33F62534C504B3B /* Pods-PennLabsDiningUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennLabsDiningUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PennLabsDiningUITests/Pods-PennLabsDiningUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3B687D81D0425E8E4ED5CF2 /* Pods_PennLabsDining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PennLabsDining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D473FCA22ADD5AAE315D98C5 /* Pods_PennLabsDiningUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PennLabsDiningUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1487466050A53F84DCECEE9 /* Pods-PennLabsDining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennLabsDining.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PennLabsDining/Pods-PennLabsDining.debug.xcconfig"; sourceTree = "<group>"; };
+		FC6288FE70023EDB09B38C8F /* Pods-PennLabsDiningTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennLabsDiningTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PennLabsDiningTests/Pods-PennLabsDiningTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E488B38433798E8DA3CD6F /* Pods_PennLabsDining.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E46F00C09D03FD7937862B51 /* Pods_PennLabsDiningTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8177890625050F6656A2E620 /* Pods_PennLabsDiningUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,8 @@
 				A3714E512156A2CE00416B2F /* PennLabsDiningTests */,
 				A3714E5C2156A2CE00416B2F /* PennLabsDiningUITests */,
 				A3714E3B2156A2CB00416B2F /* Products */,
+				AEF2F8B5FC381915C979C1B6 /* Pods */,
+				AD9981037BAE3E4C6C001C94 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +128,13 @@
 			children = (
 				A3714E3D2156A2CB00416B2F /* AppDelegate.swift */,
 				A3714E3F2156A2CB00416B2F /* ViewController.swift */,
+				A3AF4A7621570DDC00AB1A2C /* GymTableViewCell.swift */,
 				A3714E412156A2CB00416B2F /* Main.storyboard */,
+				A3AF4A782158414400AB1A2C /* climbing.jpg */,
+				A3AF4A7C2158414400AB1A2C /* fox.jpg */,
+				A3AF4A7A2158414400AB1A2C /* ringe.jpg */,
+				A3AF4A7B2158414400AB1A2C /* rockwell.jpg */,
+				A3AF4A792158414400AB1A2C /* sheerr.jpg */,
 				A3714E442156A2CE00416B2F /* Assets.xcassets */,
 				A3714E462156A2CE00416B2F /* LaunchScreen.storyboard */,
 				A3714E492156A2CE00416B2F /* Info.plist */,
@@ -125,6 +160,29 @@
 			path = PennLabsDiningUITests;
 			sourceTree = "<group>";
 		};
+		AD9981037BAE3E4C6C001C94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3B687D81D0425E8E4ED5CF2 /* Pods_PennLabsDining.framework */,
+				700A88079236AE74B7F076D8 /* Pods_PennLabsDiningTests.framework */,
+				D473FCA22ADD5AAE315D98C5 /* Pods_PennLabsDiningUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEF2F8B5FC381915C979C1B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1487466050A53F84DCECEE9 /* Pods-PennLabsDining.debug.xcconfig */,
+				334BDA14EF76CC814837CD1E /* Pods-PennLabsDining.release.xcconfig */,
+				FC6288FE70023EDB09B38C8F /* Pods-PennLabsDiningTests.debug.xcconfig */,
+				098367CE775477F6942EA410 /* Pods-PennLabsDiningTests.release.xcconfig */,
+				B278A7E0A33F62534C504B3B /* Pods-PennLabsDiningUITests.debug.xcconfig */,
+				25C59CA3D84B815240B9F241 /* Pods-PennLabsDiningUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3714E622156A2CE00416B2F /* Build configuration list for PBXNativeTarget "PennLabsDining" */;
 			buildPhases = (
+				968C0ECA5F3286B747E11F1B /* [CP] Check Pods Manifest.lock */,
 				A3714E362156A2CB00416B2F /* Sources */,
 				A3714E372156A2CB00416B2F /* Frameworks */,
 				A3714E382156A2CB00416B2F /* Resources */,
+				EE5388F191067BDAC9E9D0BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3714E652156A2CE00416B2F /* Build configuration list for PBXNativeTarget "PennLabsDiningTests" */;
 			buildPhases = (
+				EB9AC460EF7876349A8F5891 /* [CP] Check Pods Manifest.lock */,
 				A3714E4A2156A2CE00416B2F /* Sources */,
 				A3714E4B2156A2CE00416B2F /* Frameworks */,
 				A3714E4C2156A2CE00416B2F /* Resources */,
@@ -167,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3714E682156A2CE00416B2F /* Build configuration list for PBXNativeTarget "PennLabsDiningUITests" */;
 			buildPhases = (
+				422A4420400D113316DF01BB /* [CP] Check Pods Manifest.lock */,
 				A3714E552156A2CE00416B2F /* Sources */,
 				A3714E562156A2CE00416B2F /* Frameworks */,
 				A3714E572156A2CE00416B2F /* Resources */,
@@ -229,8 +291,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3AF4A7E2158414400AB1A2C /* sheerr.jpg in Resources */,
+				A3AF4A7D2158414400AB1A2C /* climbing.jpg in Resources */,
 				A3714E482156A2CE00416B2F /* LaunchScreen.storyboard in Resources */,
+				A3AF4A812158414400AB1A2C /* fox.jpg in Resources */,
+				A3AF4A7F2158414400AB1A2C /* ringe.jpg in Resources */,
 				A3714E452156A2CE00416B2F /* Assets.xcassets in Resources */,
+				A3AF4A802158414400AB1A2C /* rockwell.jpg in Resources */,
 				A3714E432156A2CB00416B2F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +318,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		422A4420400D113316DF01BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PennLabsDiningUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		968C0ECA5F3286B747E11F1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PennLabsDining-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB9AC460EF7876349A8F5891 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PennLabsDiningTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE5388F191067BDAC9E9D0BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PennLabsDining/Pods-PennLabsDining-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PennLabsDining/Pods-PennLabsDining-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A3714E362156A2CB00416B2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +416,7 @@
 			files = (
 				A3714E402156A2CB00416B2F /* ViewController.swift in Sources */,
 				A3714E3E2156A2CB00416B2F /* AppDelegate.swift in Sources */,
+				A3AF4A7721570DDC00AB1A2C /* GymTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +587,7 @@
 		};
 		A3714E632156A2CE00416B2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1487466050A53F84DCECEE9 /* Pods-PennLabsDining.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +606,7 @@
 		};
 		A3714E642156A2CE00416B2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 334BDA14EF76CC814837CD1E /* Pods-PennLabsDining.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +625,7 @@
 		};
 		A3714E662156A2CE00416B2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC6288FE70023EDB09B38C8F /* Pods-PennLabsDiningTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +647,7 @@
 		};
 		A3714E672156A2CE00416B2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 098367CE775477F6942EA410 /* Pods-PennLabsDiningTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +669,7 @@
 		};
 		A3714E692156A2CE00416B2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B278A7E0A33F62534C504B3B /* Pods-PennLabsDiningUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +690,7 @@
 		};
 		A3714E6A2156A2CE00416B2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C59CA3D84B815240B9F241 /* Pods-PennLabsDiningUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
